@@ -1,0 +1,2 @@
+a749a4c0a6c6e1bbe063675eb008b59d3fe443540b3fd2f79fea040f619e9e21  codex-ai-platform-operator-v1.0.0.zip
+bc1daa84e4803f4bdbe6e50c503a0b723d685c310ec45e661cddbb3d52ef10f4  codex-ai-platform-operator-v1.1.0.zip

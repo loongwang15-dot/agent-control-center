@@ -1,0 +1,4 @@
+-e ./agentscope[service,storage-sql]
+aiosqlite==0.22.1
+python-multipart==0.0.32
+PyYAML==6.0.3

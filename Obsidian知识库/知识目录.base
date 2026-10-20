@@ -1,0 +1,12 @@
+filters:
+  and:
+    - 'file.ext == "md"'
+views:
+  - type: table
+    name: 知识清单
+    order:
+      - file.name
+      - project
+      - status
+      - tags
+      - updated

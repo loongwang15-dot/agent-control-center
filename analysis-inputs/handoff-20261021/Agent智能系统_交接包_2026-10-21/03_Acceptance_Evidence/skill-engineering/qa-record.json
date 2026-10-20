@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "task_id": "skill-update-agent-work-os-20261021",
+  "mode": "UPDATE",
+  "profile": "FULL",
+  "scope": "PACKAGE",
+  "checks": [
+    {
+      "id": "structure",
+      "status": "PASS",
+      "reason": "Skill entry, YAML, all local references, script syntax/help, task fixtures, artifact verification, and 14/14 ZIP round-trip passed.",
+      "evidence": [
+        {
+          "path": "ACCEPTANCE.md",
+          "sha256": "c268016f6b9c19f44a6683a0999b66cf7059149deaa94f6bc712915c99138a87",
+          "kind": "manual"
+        },
+        {
+          "path": "TEST_EVIDENCE_V1_1_0.md",
+          "sha256": "b5409ae4c19ebff5a4da0186874f7ec7c16118d426fef2571263949455e5e021",
+          "kind": "command"
+        }
+      ]
+    },
+    {
+      "id": "fidelity",
+      "status": "PASS",
+      "reason": "The v1.1.0 baseline maps the existing v1.0.0 platform capabilities plus project continuity, system model, and delivery routing to the package without adding deployment or external-action authority.",
+      "evidence": [
+        {
+          "path": "REQUIREMENTS.md",
+          "sha256": "999158379d0b5e4a553db753146926dd37e35c02e829a1783819d8c645cadfd4",
+          "kind": "manual"
+        }
+      ]
+    }
+  ]
+}
